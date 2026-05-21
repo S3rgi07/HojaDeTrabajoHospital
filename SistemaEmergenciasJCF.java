@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.PriorityQueue; // Importando del JCF
 
-public class SistemaEmergencias {
+public class SistemaEmergenciasJCF {
     public static void main(String[] args) {
         // PriorityQueue de java.util
         PriorityQueue<Paciente> colaEmergencias = new PriorityQueue<>();
